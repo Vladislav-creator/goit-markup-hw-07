@@ -534,7 +534,6 @@ body {
   .item-secondary-section {
     width: 356px;
     flex-basis: calc((100% - 24px) / 2);
-    background-color: #8e8f99;
   }
 }
 @media screen and (min-width: 1158px) {
