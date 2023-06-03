@@ -527,12 +527,12 @@ body {
   .section-list {
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
     flex-wrap: wrap;
     row-gap: 24px;
     column-gap: 72px;
   }
   .item-secondary-section {
-    width: 356px;
     flex-basis: calc((100% - 24px) / 2);
   }
 }
