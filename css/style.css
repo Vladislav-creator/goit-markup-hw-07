@@ -62,9 +62,7 @@ body {
     padding-right: 15px;
   }
 }
-.body.modal-open {
-  overflow: hidden;
-}
+
 .logo {
   font-family: var(--secondary-font-family);
   font-weight: 800;
@@ -354,7 +352,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 190px;
+  width: 100%;
   height: 88px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
@@ -700,9 +698,7 @@ body {
     display: flex;
     justify-content: space-between;
   }
-  .customers-item {
-    flex-basis: calc((100% - 16px) / 2);
-  }
+
   .customers-link {
     width: 100%;
   }
@@ -716,9 +712,15 @@ body {
   .modal {
     width: 392px;
   }
+  .customers-list {
+    width: 396px;
+  }
 }
 
 @media screen and (max-width: 767px) {
+  .customers-item {
+    flex-basis: calc((100% - 16px) / 2);
+  }
   .modal {
     padding: 72px 16px 24px 16px;
   }
