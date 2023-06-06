@@ -976,7 +976,7 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-  .custumers-item {
+  .customers-item {
     flex-basis: calc((100% - 48px) / 3);
   }
   .customers-link {
@@ -1106,6 +1106,10 @@ body {
   .customers-list {
     flex-wrap: nowrap;
     gap: 24px;
+    width: 100%;
+  }
+  .customers-item {
+    flex-basis: calc((100% - 120px) / 6);
   }
 
   /*footer*/
